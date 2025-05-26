@@ -15,9 +15,10 @@ html, body {
   margin: 60px auto;
   padding: 2rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 3rem; /* space between text and phone */
+  gap: 3rem;
 }
 
 .content {
