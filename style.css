@@ -50,7 +50,8 @@ p {
 }
 
 .cta-button {
-  display: inline-block;
+  display: block;
+  width: fit-content;
   margin: 1.5rem 0;
   padding: 1rem 2rem;
   background: white;
