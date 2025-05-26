@@ -4,11 +4,6 @@ body {
   font-family: 'Inter', sans-serif;
   background: linear-gradient(140deg, #FC3636 8%, #FC7236 56%);
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
 }
 
 .container {
