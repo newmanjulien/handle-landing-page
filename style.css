@@ -58,7 +58,7 @@ p {
   border-radius: 50px;
   font-weight: bold;
   text-decoration: none;
-  box-shadow: 0 8px 0 #FFFF33;
+  box-shadow: 4px 8px 0 #FFFF33;
 }
 
 .caption {
