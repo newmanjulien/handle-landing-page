@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #FF512F, #F09819);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  padding: 2rem;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.highlight {
+  color: yellow;
+  font-weight: bold;
+}
+
+.cta-button {
+  display: inline-block;
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+  background: white;
+  color: #e63946;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 8px 0 #fce302;
+}
+
+.caption {
+  font-size: 0.9rem;
+}
+
+.phone {
+  width: 200px;
+  position: absolute;
+  right: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+}
