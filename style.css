@@ -14,12 +14,12 @@ html, body {
   max-width: 1200px;
   margin: 60px auto;
   padding-block: 2rem;
-  padding-inline: 10vw;
+  padding-inline: 7vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 10vw;
+  gap: 7vw;
 }
 
 .content {
@@ -66,7 +66,7 @@ p {
 }
 
 .phone {
-  width: 300px;
+  width: 250px;
   max-width: 100%;
   position: static;
   transform: none;
