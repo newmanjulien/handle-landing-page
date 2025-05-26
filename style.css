@@ -14,7 +14,15 @@ html, body {
   max-width: 1200px;
   margin: 60px auto;
   padding: 2rem;
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.content {
+  flex: 1;
 }
 
 .logo {
@@ -57,9 +65,8 @@ p {
 }
 
 .phone {
-  width: 200px;
-  position: absolute;
-  right: -80px;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 300px;
+  max-width: 100%;
+  position: static;
+  transform: none;
 }
