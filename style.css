@@ -13,7 +13,8 @@ html, body {
 .container {
   max-width: 1200px;
   margin: 60px auto;
-  padding: 2rem;
+  padding-block: 2rem;
+  padding-inline: 5vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
