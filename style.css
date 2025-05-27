@@ -55,6 +55,7 @@ p {
 .highlight {
   color: #FFFF33;
   font-weight: 900;
+  -webkit-text-stroke: 0.7px #FFFF33;
 }
 
 
