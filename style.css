@@ -18,7 +18,7 @@ html, body {
   padding-inline: 11vw;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 11vw;
 }
