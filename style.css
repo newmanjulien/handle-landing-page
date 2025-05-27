@@ -65,14 +65,15 @@ p {
   font-weight: 800;
   text-decoration: none;
   box-shadow: 4px 8px 0 #FFFF33;
+}
 
-    /* Gradient text */
+
+.gradient-text {
   background: linear-gradient(to right, #FC7236, #FC3636 45%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;           /* fallback for some browsers */
-  text-fill-color: transparent;    /* fallback */
-
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 
