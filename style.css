@@ -13,7 +13,7 @@ html, body {
 
 .container {
   max-width: 1200px;
-  margin: 30px auto;
+  margin: 50px auto;
   padding-block: 2rem;
   padding-inline: 11vw;
   display: flex;
@@ -45,6 +45,7 @@ h1 {
 
 p {
   font-size: 1.1rem;
+  margin: 0.5;
 }
 
 .highlight {
