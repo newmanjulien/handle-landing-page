@@ -3,6 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: 'Inter', sans-serif;
+  line-height: 1.7;
   background: linear-gradient(140deg, #FC3636 8%, #FC7236 56%);
   background-repeat: no-repeat;
   background-attachment: fixed;
