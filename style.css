@@ -37,6 +37,7 @@ html, body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
+  font-weight: 800;
   letter-spacing: 0.06em;
   margin-bottom: 1rem;
 }
@@ -61,7 +62,7 @@ p {
   background: white;
   color: #e63946;
   border-radius: 20px;
-  font-weight: bold;
+  font-weight: 800;
   text-decoration: none;
   box-shadow: 4px 8px 0 #FFFF33;
 
