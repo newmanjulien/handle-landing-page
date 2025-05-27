@@ -2,7 +2,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Manrope', sans-serif;
   line-height: 1.7;
   background: linear-gradient(140deg, #FC3636 8%, #FC7236 56%);
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ p {
 
 .cta-button {
   display: inline-block;
-  margin: 1rem 0 0.5rem 0;
+  margin: 1rem 0 0.1rem 0;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -80,6 +80,7 @@ p {
 
 .caption {
   font-size: 1rem;
+  font-family: 'Manrope', sans-serif;
 }
 
 .phone {
