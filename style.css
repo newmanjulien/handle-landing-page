@@ -49,9 +49,9 @@ p {
   font-weight: bold;
 }
 
+
 .cta-button {
-  display: block;
-  width: fit-content;
+  display: inline-block;
   margin: 1.5rem 0;
   padding: 1rem 2rem;
   background: white;
@@ -61,6 +61,7 @@ p {
   text-decoration: none;
   box-shadow: 4px 8px 0 #FFFF33;
 }
+
 
 .caption {
   font-size: 0.9rem;
