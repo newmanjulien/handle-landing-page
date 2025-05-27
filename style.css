@@ -3,6 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: 'Inter', sans-serif;
+  line-height: 1.7;
   background: linear-gradient(140deg, #FC3636 8%, #FC7236 56%);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12,7 +13,7 @@ html, body {
 
 .container {
   max-width: 1200px;
-  margin: 60px auto;
+  margin: 20px auto;
   padding-block: 2rem;
   padding-inline: 11vw;
   display: flex;
@@ -36,10 +37,10 @@ html, body {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
-  font-weight: 800;
+  font-size: 4.3rem;
+  font-weight: 1000;
   letter-spacing: 0.06em;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 p {
@@ -54,7 +55,7 @@ p {
 
 .cta-button {
   display: inline-block;
-  margin: 1.5rem 0;
+  margin: 1rem 0 0.5rem 0;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -62,22 +63,23 @@ p {
   background: white;
   color: #e63946;
   border-radius: 20px;
-  font-weight: 800;
+  font-weight: 1000;
   text-decoration: none;
   box-shadow: 4px 8px 0 #FFFF33;
+}
 
-    /* Gradient text */
+
+.gradient-text {
   background: linear-gradient(to right, #FC7236, #FC3636 45%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;           /* fallback for some browsers */
-  text-fill-color: transparent;    /* fallback */
-
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 
 .caption {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 
 .phone {
