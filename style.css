@@ -37,6 +37,7 @@ html, body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
+  letter-spacing: 0.06em;
   margin-bottom: 1rem;
 }
 
@@ -56,6 +57,7 @@ p {
   padding: 1rem 2rem;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.06em;
   background: white;
   color: #e63946;
   border-radius: 20px;
