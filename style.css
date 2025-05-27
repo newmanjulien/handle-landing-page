@@ -30,13 +30,15 @@ html, body {
   position: fixed;
   top: 30px;
   left: 30px;
-  width: 200px;
+  width: 170px;
   z-index: 10;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
   margin-bottom: 1rem;
 }
 
@@ -49,18 +51,30 @@ p {
   font-weight: bold;
 }
 
+
 .cta-button {
-  display: block;
-  width: fit-content;
+  display: inline-block;
   margin: 1.5rem 0;
   padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.06em;
   background: white;
   color: #e63946;
-  border-radius: 50px;
-  font-weight: bold;
+  border-radius: 20px;
+  font-weight: 800;
   text-decoration: none;
   box-shadow: 4px 8px 0 #FFFF33;
+
+    /* Gradient text */
+  background: linear-gradient(to right, #FC7236, #FC3636 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;           /* fallback for some browsers */
+  text-fill-color: transparent;    /* fallback */
+
 }
+
 
 .caption {
   font-size: 0.9rem;
@@ -72,3 +86,16 @@ p {
   position: static;
   transform: none;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
