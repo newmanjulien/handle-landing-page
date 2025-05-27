@@ -13,7 +13,7 @@ html, body {
 
 .container {
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 30px auto;
   padding-block: 2rem;
   padding-inline: 11vw;
   display: flex;
@@ -79,7 +79,7 @@ p {
 
 
 .caption {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .phone {
