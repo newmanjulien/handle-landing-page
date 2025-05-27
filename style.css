@@ -80,7 +80,7 @@ p {
 
 
 .cta-button:hover {
-  transform: translateY(3px) translateX(2px);
+  transform: translateY(2px) translateX(1px);
 }
 
 
