@@ -41,11 +41,12 @@ h1 {
   font-weight: 900;
   letter-spacing: 0.06em;
   margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 p {
   font-size: 1.1rem;
-  margin: 0.5;
+  margin: 0.3;
 }
 
 .highlight {
