@@ -37,7 +37,7 @@ html, body {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 4.8rem;
   font-weight: 900;
   -webkit-text-stroke: 2.3px white;
@@ -73,7 +73,7 @@ p {
   margin-bottom: 1.1rem;
   padding: 0.7rem 2.2rem;
   font-size: 1.75rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 0.08em;
   background: white;
   color: #e63946;
