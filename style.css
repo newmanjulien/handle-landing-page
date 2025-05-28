@@ -60,6 +60,13 @@ p {
 }
 
 
+.cta-shadow-wrapper {
+  display: inline-block;
+  box-shadow: 6px 8px 0 #FFFF33;
+  border-radius: 20px;
+}
+
+
 .cta-button {
   display: inline-block;
   margin-top: 2rem;
@@ -73,7 +80,6 @@ p {
   border-radius: 20px;
   font-weight: 900;
   text-decoration: none;
-  box-shadow: 6px 8px 0 #FFFF33;
   transition: transform 0.2s ease;
   position: relative;
 }
