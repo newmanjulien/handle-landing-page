@@ -8,7 +8,6 @@ html, body {
   line-height: 1.7;
   background: linear-gradient(145deg, #FC3636 8%, #FC7236 56%);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   color: white;
   overflow-x: hidden; /* Probably want to remove */
@@ -24,8 +23,8 @@ html, body {
   align-items: center;
   justify-content: space-between;
   gap: 9vw;
-  min-height: calc(100vh - 7.2rem); /* Remove if it doesn't work */
-  box-sizing: border-box; /* Remove if it doesn't work */
+  min-height: calc(100vh - 7.2rem); /* Probably want to remove */
+  box-sizing: border-box; /* Probably want to remove */
 }
 
 .content {
