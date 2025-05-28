@@ -84,11 +84,13 @@ p {
   color: #e63946;
   border-radius: 20px;
   font-weight: 900;
+  /* Probably want to use this AKA remove all others then uncomment below */
+  /*  text-decoration: none; */
   text-decoration: none;
   transition: transform 0.2s ease;
   position: relative;
 
-    /* Probably want to remove */
+ /* Probably want to remove */
   -webkit-text-decoration: none !important;
   text-decoration-line: none !important;
   text-underline-offset: unset;
@@ -98,20 +100,20 @@ p {
 .cta-button:hover {
   transform: translateY(0.8px) translateX(0.5px);
 
-  /* Safari-specific fixes to remove underline*/
+ /* Probably want to remove */
   text-decoration: none !important;
   -webkit-text-decoration: none !important;
 }
 
 
-/* Safari-specific fix to remove underline*/
+ /* Probably want to remove */
 .cta-button:visited {
   text-decoration: none !important;
   -webkit-text-decoration: none !important;
 }
 
 
-/* Safari-specific fix to remove underline*/
+ /* Probably want to remove */
 .cta-button:link {
   text-decoration: none !important;
   -webkit-text-decoration: none !important;
