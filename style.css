@@ -87,6 +87,11 @@ p {
   text-decoration: none;
   transition: transform 0.2s ease;
   position: relative;
+
+    /* Safari-specific fixes to remove underline*/
+  -webkit-text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-underline-offset: unset;
 }
 
 
