@@ -1,15 +1,14 @@
 html, body {
-  height: 100vh;
+  height: 100%;
   margin: 0;
-  padding: 0; /* Probably want to remove */
   font-family: 'Manrope', sans-serif;
   font-weight: 300;
   line-height: 1.7;
   background: linear-gradient(145deg, #FC3636 8%, #FC7236 56%);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: white;
-  overflow-x: hidden; /* Probably want to remove */
 }
 
 .container {
@@ -22,13 +21,10 @@ html, body {
   align-items: center;
   justify-content: space-between;
   gap: 9vw;
-  min-height: calc(100vh - 7.2rem); /* Probably want to remove */
-  box-sizing: border-box; /* Probably want to remove */
 }
 
 .content {
   flex: 1;
-  min-width: 300px; /* Prevent content from getting too narrow */
 }
 
 .logo {
@@ -41,7 +37,7 @@ html, body {
 
 h1 {
   font-family: 'Nunito', sans-serif;
-  font-size: 4.6rem;
+  font-size: 4.8rem;
   font-weight: 900;
   -webkit-text-stroke: 2.3px white;
   letter-spacing: 0.07em;
@@ -62,6 +58,7 @@ p {
   -webkit-text-stroke: 0.5px #FFFF33;
 }
 
+
 .cta-shadow-wrapper {
   display: inline-block;
   margin-top: 2rem;
@@ -69,6 +66,7 @@ p {
   box-shadow: 6px 8px 0 #FFFF33;
   border-radius: 20px;
 }
+
 
 .cta-button {
   display: inline-block;
@@ -83,13 +81,15 @@ p {
   border-radius: 20px;
   font-weight: 900;
   text-decoration: none;
-  text-decoration: none;
   transition: transform 0.2s ease;
   position: relative;
 }
 
+
 .cta-button:hover {
   transform: translateY(0.8px) translateX(0.5px);
+}
+
 
 .gradient-text {
   background: linear-gradient(to right, #FC7236, #FC3636 45%);
@@ -98,6 +98,7 @@ p {
   background-clip: text;
   text-fill-color: transparent;
 }
+
 
 .caption {
   font-size: 1rem;
@@ -109,117 +110,16 @@ p {
   max-width: 100%;
   position: static;
   transform: none;
-  flex-shrink: 1; /* Allow phone to shrink */
 }
 
-/* Large screens - reduce gap first */
-@media (max-width: 1200px) {
-  .container {
-    gap: 6vw; /* Reduce gap between content and phone */
-    padding-inline: 8vw; /* Reduce side padding slightly */
-  }
-}
-
-/* Medium-large screens - further reduce spacing */
-@media (max-width: 1000px) {
-  .container {
-    gap: 4vw;
-    padding-inline: 6vw;
-  }
-  
-  .phone {
-    width: 350px; /* Start reducing phone size */
-  }
-}
-
-/* Medium screens - more aggressive spacing reduction */
-@media (max-width: 900px) {
-  .container {
-    gap: 3vw;
-    padding-inline: 4vw;
-  }
-  
-  .phone {
-    width: 300px;
-  }
-  
-  h1 {
-    font-size: 4.2rem;
-  }
-}
-
-/* Tablet screens */
 @media (max-width: 768px) {
-  .container {
-    gap: 2vw;
-    padding-inline: 3vw;
-    margin: 2rem auto;
-  }
-  
-  .phone {
-    width: 280px;
-  }
-  
-  h1 {
-    font-size: 3.5rem;
-  }
-  
-  .logo {
-    width: 150px;
-    top: 20px;
-    left: 20px;
-  }
-}
-
-/* Small tablet / large mobile */
-@media (max-width: 650px) {
-  .container {
-    flex-direction: column; /* Stack vertically */
-    gap: 3rem;
-    padding-inline: 5vw;
-    text-align: center;
-  }
-  
-  .content {
-    order: 1;
-  }
-  
-  .phone {
-    order: 2;
-    width: 250px;
-  }
-  
   h1 {
     font-size: 3rem;
   }
 }
 
-/* Mobile screens */
 @media (max-width: 480px) {
-  .container {
-    padding-inline: 6vw;
-    gap: 2rem;
-  }
-  
-  .phone {
-    width: 220px;
-  }
-  
   h1 {
     font-size: 2.2rem;
-    -webkit-text-stroke: 1.5px white;
-  }
-  
-  p {
-    font-size: 1rem;
-  }
-  
-  .cta-button {
-    font-size: 1.5rem;
-    padding: 0.6rem 1.8rem;
-  }
-  
-  .logo {
-    width: 120px;
   }
 }
