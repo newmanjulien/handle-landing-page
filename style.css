@@ -62,6 +62,8 @@ p {
 
 .cta-shadow-wrapper {
   display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 1.1rem;
   box-shadow: 6px 8px 0 #FFFF33;
   border-radius: 20px;
 }
@@ -69,8 +71,8 @@ p {
 
 .cta-button {
   display: inline-block;
-  margin-top: 2rem;
-  margin-bottom: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0.7rem 2.2rem;
   font-size: 1.75rem;
   font-family: 'Nunito', sans-serif;
