@@ -88,7 +88,7 @@ p {
   transition: transform 0.2s ease;
   position: relative;
 
-    /* Safari-specific fixes to remove underline*/
+    /* Probably want to remove */
   -webkit-text-decoration: none !important;
   text-decoration-line: none !important;
   text-underline-offset: unset;
@@ -97,6 +97,24 @@ p {
 
 .cta-button:hover {
   transform: translateY(0.8px) translateX(0.5px);
+
+  /* Safari-specific fixes to remove underline*/
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
+}
+
+
+/* Safari-specific fix to remove underline*/
+.cta-button:visited {
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
+}
+
+
+/* Safari-specific fix to remove underline*/
+.cta-button:link {
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
 }
 
 
